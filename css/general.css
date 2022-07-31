@@ -1,0 +1,68 @@
+
+
+	table.table.vncop-information-shop-mall {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 1rem;
+	background-color: transparent;
+	border-collapse: collapse;
+	}
+	
+	table.table.vncop-information-shop-mall td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	}
+	select.approveShopProvince {
+    width: 100%;
+}
+.filter-bySelected-out {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.filter-bySelected-out>div:nth-of-type(1) {
+    margin-right: 10px;
+    /* padding: 21px; */
+    flex: 1 1 24%;
+}
+.filter-bySelected-out>div:nth-of-type(2) {
+    flex: 1 1 68%;
+}
+.filter-bySelected-out>div:nth-of-type(1) {
+    margin-right: 10px;
+    /* padding: 21px; */
+}
+
+select.filter-bySelected {
+    padding: 4px;
+    width: 100%;
+}
+select.approveShopDistrict {
+    width: 100%;
+}
+
+select.approveShopWard {
+    width: 100%;
+}
+	table.table.vncop-information-shop-mall td:nth-of-type(1) {
+	width: 30%;
+	}
+	
+	.q-loading-bar {
+	z-index: 999999 !important;
+	}
+	body{
+	background: #fff;
+	}
+	.fixed, .fixed-bottom, .fixed-bottom-left, .fixed-bottom-right, .fixed-center, .fixed-full, .fixed-left, .fixed-right, .fixed-top, .fixed-top-left, .fixed-top-right, .fullscreen {
+	z-index: 99999999 !important;
+	}
+	textarea, input {
+	border:0 !important;
+	background: transparent !important;
+	box-shadow: none !important
+	}
+	.select2-container {
+    z-index: 9999999999;
+}
